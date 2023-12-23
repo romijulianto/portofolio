@@ -1,11 +1,8 @@
 import FeaturedProject from '../../blocks/projects/featured'
 
-
 // Section structure
 import Section 		from '../../structure/section';
 import Container 	from '../../structure/container';
-import Badges 		from '../../utils/badge.list.util'
-import Icon 		from '../../utils/icon.util'
 import SectionTitle from '../../blocks/section.title.block'
 
 import css 			from '../../../styles/sections/projects/featured.module.scss'
@@ -18,8 +15,8 @@ export default function FeaturedProjects() {
 			<Container spacing={'verticalXXXXLrg'}>
 				<SectionTitle
 					title="Featured Projects"
-					preTitle="UX and Full Stack"
-					subTitle="Focused on the experience, driven by the engineering."
+					preTitle="Full Stack and Mobile GIS"
+					subTitle="Focused on the spatial implementation, in all devices"
 				/> 				{
 				content.map( (data, index) => {
 					return (
